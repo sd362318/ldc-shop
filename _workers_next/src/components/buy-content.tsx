@@ -318,11 +318,11 @@ export function BuyContent({
                             <div className="relative">
                                 <div className="grid gap-0 lg:grid-cols-[minmax(0,0.98fr)_minmax(0,1.02fr)]">
                                     <div className="relative flex flex-col border-b border-border/20 p-5 md:p-6 lg:border-b-0 lg:border-r">
-                                        <div className="relative flex aspect-[4/3] w-full items-center justify-center overflow-hidden rounded-[1.65rem] bg-card/50 p-5 md:p-8">
+                                        <div className="relative flex aspect-[4/3] w-full items-center justify-center overflow-hidden rounded-[1.65rem] bg-card/50 p-3 md:p-4">
                                             {activeGalleryImage ? (
                                                 <button
                                                     type="button"
-                                                    className="relative aspect-[4/3] w-full max-w-[32rem] cursor-zoom-in text-left"
+                                                    className="relative h-full w-full cursor-zoom-in text-left"
                                                     onClick={() => setIsGalleryDialogOpen(true)}
                                                     aria-label={t('buy.viewLargeImage')}
                                                     title={t('buy.viewLargeImage')}
